@@ -4,7 +4,7 @@ networks:
     driver: bridge
 services:
   app:
-    image: nocobase/nocobase:latest
+    image: nocobase/nocobase:v1.2.3-alpha
     networks:
       - nocobase
     depends_on:
